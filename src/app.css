@@ -9,13 +9,14 @@
 @plugin "daisyui/theme" {
 	name: 'light';
 	default: true;
-	--color-primary: oklch(0.4556 0.0635 192.23);
+	--color-primary: oklch(0.3341 0.0653 246.48);
+
 }
 
 @plugin "daisyui/theme" {
 	name: 'dark';
 	prefersdark: true;
-	--color-primary: oklch(0.4556 0.0635 192.23);
+	--color-primary: oklch(0.3341 0.0653 246.48);
 }
 
 /* * {
@@ -24,6 +25,9 @@
 
 @theme {
 	--font-display: 'Jost',  'sans-serif';
+	--color-primary-muted: oklch(0.4341 0.0553 246.48);
+	--color-primary-subtle: oklch(0.7341 0.0353 246.48);
+	--color-primary-highlight: oklch(0.6341 0.0953 246.48);
 }
 
 h1 {
