@@ -28,21 +28,23 @@
 	];
 </script>
 
-<div class="card card-body bg-primary-subtle/10">
-	<div class="text-lg mt-10">
-		<p>Meet the professional staff at Chinese Acupuncture Association on the Gulf Coast</p>
+<div class="p-golden-2xl bg-primary-muted/10">
+	<div class="text-lg prose max-w-none">
+		<p>Meet the professional staff at Chinese Acupuncture Association on the Gulf Coast.</p>
 
 		<p>
 			All of our TCM physicians were specifically trained in China and are Licensed and NCCAOM
-			certified in USA
+			certified in USA.
 		</p>
 	</div>
 
-	<div class="grid grid-cols-2 gap-x-golden-lg gap-y-golden-2xl mt-10">
+	<div class="grid grid-cols-2 mt-10 gap-y-golden-2xl">
 		{#each providers as provider (provider.name)}
-			<div class="flex space-x-golden-md">
-				<img class="rounded-sm" src={provider.pic} alt="" />
-				<div class="mt-28">
+			<div class="flex flex-col items-center gap-y-golden-md">
+				<div>
+					<img class="rounded-sm" src={provider.pic} alt="" />
+				</div>
+				<div class="text-center">
 					<span class="text-lg font-semibold"> {provider.name}</span> <br />
 					{#if provider.info}
 						{provider.info}

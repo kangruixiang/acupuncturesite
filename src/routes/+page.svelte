@@ -1,11 +1,17 @@
 <script lang="ts">
-	import Footer from '$lib/components/Footer.svelte';
+	import Addresses from '$lib/components/Addresses.svelte';
+	import Conditions from '$lib/components/Conditions.svelte';
+
 	import Slide from '$lib/components/Slide.svelte';
 </script>
 
 <Slide />
+<div class="bg-primary-muted/80 border-primary border-y-2 py-golden-lg px-golden-md">
+	<div class="italic mb-golden-md">Four convenient locations on the Gulf Coast to serve you...</div>
+	<Addresses />
+</div>
 
-<div class="prose max-w-none bg-primary-subtle/10 pt-20 px-golden-md">
+<div class="prose max-w-none bg-primary-muted/10 p-golden-2xl">
 	<h2>What is Acupuncture?</h2>
 
 	<p>
@@ -39,5 +45,6 @@
 		Pharmacologists can now purify various kinds of biological bases from herbal compounds to
 		formulate a wide variety of medications for the treatment of illness.
 	</p>
+
+	<Conditions />
 </div>
-<Footer />
