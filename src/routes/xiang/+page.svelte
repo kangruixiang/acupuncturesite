@@ -1,11 +1,15 @@
 <div class="bg-primary-muted/10 flex flex-col md:flex-row space-x-golden-lg prose max-w-none">
-	<div class="bg-primary-muted p-golden-xl flex items-center justify-center flex-col min-w-80">
-		<img src="xue.jpg" class="w-[80%] rounded-sm" alt="" />
-		<span class="text-2xl text-center"> Xue Cui Xiang, OMD </span>
-		<span class="text-lg mt-10 text-pretty"
-			>Traditional Chinese Medicine Physician Licensed and National Certified Acupuncture Specialist
-			and Herbologist</span
-		>
+	<div
+		class="bg-primary-muted p-golden-xl w-full flex items-center justify-center md:flex-col gap-golden-md min-w-80 text-base-300 dark:text-base-content"
+	>
+		<img src="xue.jpg" class="md:w-[80%] w-[50%] rounded-sm" alt="" />
+		<div class="flex flex-col gap-y-golden-md items-center justify-center">
+			<span class="text-2xl text-center"> Xue Cui Xiang, OMD </span>
+			<span class="text-lg text-pretty max-w-80"
+				>Traditional Chinese Medicine Physician Licensed and National Certified Acupuncture
+				Specialist and Herbologist</span
+			>
+		</div>
 	</div>
 	<div class="p-golden-2xl">
 		<p>Dr. Xiang comes from a long line of traditional Chinese medicine practitioners (TCM).</p>

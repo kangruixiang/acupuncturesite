@@ -26,7 +26,7 @@
 			url: '/resources'
 		},
 		{
-			text: 'Contact Us',
+			text: 'Hours & Contact',
 			url: '/contact'
 		}
 	];
@@ -40,7 +40,7 @@
 </div>
 
 <div
-	class="w-full py-golden-sm grid grid-cols-2 gap-2 md:flex items-center md:flex-wrap h-full md:justify-around"
+	class="w-full py-golden-sm grid grid-cols-2 gap-2 md:flex items-center md:flex-wrap h-full md:justify-around bg-primary-muted/10 border-y-2 border-y-primary-muted2"
 >
 	{#each links as link (link.text)}
 		<button onclick={() => goto(link.url)} class="btn btn-ghost hover:bg-primary-muted/30">

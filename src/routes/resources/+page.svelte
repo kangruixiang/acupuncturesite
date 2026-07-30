@@ -59,7 +59,7 @@
 	</ul>
 {/snippet}
 
-<div class=" ">
+<div class="bg-primary-muted/10">
 	<div class="p-golden-xl prose max-w-none">
 		<h3>How does Acupuncture Work?</h3>
 		Neuroscientific basis underlying Acupuncture Analgesia.

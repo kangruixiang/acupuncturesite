@@ -10,7 +10,7 @@
 	name: 'light';
 	default: true;
 	--color-primary: oklch(0.3341 0.0653 246.48);
-
+	
 }
 
 @plugin "daisyui/theme" {

@@ -1,13 +1,18 @@
 <script lang="ts">
 	import Addresses from '$lib/components/Addresses.svelte';
 	import Conditions from '$lib/components/Conditions.svelte';
-
 	import Slide from '$lib/components/Slide.svelte';
 </script>
 
 <Slide />
-<div class="bg-primary-muted/80 border-primary-muted2 border-y-4 py-golden-lg px-golden-md">
-	<div class="italic mb-golden-md">Four convenient locations on the Gulf Coast to serve you...</div>
+<div
+	class="bg-primary-muted/80 border-primary-muted2 border-y-4 py-golden-lg px-golden-md text-base-300 dark:text-base-content"
+>
+	<div class="italic mb-golden-md mx-golden-md">
+		Four convenient locations on the Gulf Coast to serve you... <span
+			><a href="/contact" class="link">see hours</a></span
+		>
+	</div>
 	<Addresses />
 </div>
 
