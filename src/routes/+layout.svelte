@@ -6,7 +6,7 @@
 	let { children } = $props();
 </script>
 
-<div class="md:my-20 font-display md:p-golden-xl max-w-4xl 2xl:max-w-6xl mx-auto rounded-lg">
+<div class="md:my-10 font-display md:p-golden-xl max-w-4xl 2xl:max-w-6xl mx-auto rounded-lg">
 	<Header />
 
 	{@render children()}
