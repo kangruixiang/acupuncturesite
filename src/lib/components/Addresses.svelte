@@ -53,7 +53,7 @@
 	</div>
 {/snippet}
 
-<div class="flex space-x-golden-md">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-y-golden-lg gap-x-golden-md">
 	{#each addresses as address (address)}
 		{@render makeAddressBlock(address)}
 	{/each}

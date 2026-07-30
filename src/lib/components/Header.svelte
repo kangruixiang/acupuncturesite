@@ -32,16 +32,16 @@
 	];
 </script>
 
-<div class="w-full bg-primary rounded-t-md">
+<div class="w-full bg-primary h-28 rounded-t-md flex items-center px-golden-md">
 	<a href="/" class="flex gap-x-golden-sm items-baseline">
-		<img src="logo_pic.png" class="h-24 p-golden-md" alt="" />
-		<img src="Logo.png" class="h-20 pb-golden-sm" alt="" /></a
+		<img src="logo_pic.png" class="" alt="" />
+		<img src="Logo.png" class="" alt="" /></a
 	>
 </div>
 
-<div class="w-full h-12 flex items-center justify-around">
+<div class="w-full py-golden-sm flex items-center flex-wrap h-full md:justify-around">
 	{#each links as link (link.text)}
-		<button onclick={() => goto(link.url)} class="btn btn-ghost hover:bg-primary-subtle/10">
+		<button onclick={() => goto(link.url)} class="btn btn-ghost hover:bg-primary-muted/30">
 			{link.text}
 		</button>
 	{/each}

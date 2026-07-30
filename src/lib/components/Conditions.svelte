@@ -67,15 +67,13 @@
 	];
 </script>
 
-<div>
-	<h2>Conditions Appropriate for Acupuncture Therapy</h2>
+<h3>Conditions Appropriate for Acupuncture Therapy</h3>
 
-	<div class="columns-2 gap-x-golden-lg">
-		{#each conditions as condition (condition.category)}
-			<div class="break-inside-avoid mb-golden-lg">
-				<span class="font-semibold text-primary-highlight">{condition.category}</span>
-				- {condition.symptoms}
-			</div>
-		{/each}
-	</div>
+<div class="columns-2 gap-x-golden-lg">
+	{#each conditions as condition (condition.category)}
+		<div class="break-inside-avoid mb-golden-lg">
+			<span class="font-semibold text-primary-highlight">{condition.category}</span>
+			- {condition.symptoms}
+		</div>
+	{/each}
 </div>

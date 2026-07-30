@@ -1,5 +1,5 @@
-<div class="bg-primary-muted/10 flex space-x-golden-lg prose max-w-none">
-	<div class="bg-primary-muted px-golden-xl flex items-center justify-center flex-col min-w-80">
+<div class="bg-primary-muted/10 flex flex-col md:flex-row space-x-golden-lg prose max-w-none">
+	<div class="bg-primary-muted p-golden-xl flex items-center justify-center flex-col min-w-80">
 		<img src="xue.jpg" class="w-[80%] rounded-sm" alt="" />
 		<span class="text-2xl text-center"> Xue Cui Xiang, OMD </span>
 		<span class="text-lg mt-10 text-pretty"

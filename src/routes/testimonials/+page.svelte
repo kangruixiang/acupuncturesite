@@ -1,5 +1,5 @@
-<div class="p-golden-2xl bg-primary-muted/10 flex flex-col gap-y-golden-lg">
-	<div class="prose max-w-none">
+<div class="bg-primary-muted/10">
+	<div class="prose max-w-none p-golden-xl">
 		<h3>Shingles</h3>
 		<img class="float-start mr-golden-md mb-golden-md" src="testimonial.jpg" alt="" />
 
@@ -32,9 +32,7 @@
 		</p>
 	</div>
 
-	<hr class="" />
-
-	<div class="prose max-w-none">
+	<div class="p-golden-xl bg-primary-muted/10 prose max-w-none">
 		<h3>Pain and Numbness</h3>
 		<p>
 			On July 10, 2014, I experienced a sharp pain in my wrist that went through my entire right
@@ -70,9 +68,7 @@
 		</p>
 	</div>
 
-	<hr />
-
-	<div class="prose max-w-none">
+	<div class="prose max-w-none p-golden-xl">
 		<h3>Nausea, Nicotine Addiction, Arthritis, Back Pain</h3>
 		<p>
 			In 2001, I was exposed to tuberculosis at my place of employment. As a result, I was given 6
@@ -116,8 +112,7 @@
 		</p>
 	</div>
 
-	<hr />
-	<div class="prose max-w-none">
+	<div class="p-golden-xl bg-primary-muted/10 prose max-w-none pb-10">
 		<h3>Pain: Arm & Shoulder</h3>
 
 		<p>

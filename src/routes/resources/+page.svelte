@@ -59,24 +59,29 @@
 	</ul>
 {/snippet}
 
-<div class="prose max-w-none p-golden-2xl bg-primary-muted/10">
-	<h2>How does Acupuncture Work?</h2>
-	Neuroscientific basis underlying Acupuncture Analgesia.
-	<a href="how-acupuncture-works.pdf"
-		>Click here for special pdf report by Xue Cui Xiang OMD and Peter Zhang MD
-	</a>
+<div class=" ">
+	<div class="p-golden-xl prose max-w-none">
+		<h3>How does Acupuncture Work?</h3>
+		Neuroscientific basis underlying Acupuncture Analgesia.
+		<a href="how-acupuncture-works.pdf"
+			>Click here for special pdf report by Xue Cui Xiang OMD and Peter Zhang MD
+		</a>
+	</div>
+	<div class="p-golden-xl prose max-w-none bg-primary-muted/10">
+		<h3>The Military Embraces Acupuncture</h3>
 
-	<h2>The Military Embraces Acupuncture</h2>
+		Use the links below to learn more about the way the military is using acupuncture treatment in
+		military hospitals and for soldiers in Iraq and Afghanistan.
 
-	Use the links below to learn more about the way the military is using acupuncture treatment in
-	military hospitals and for soldiers in Iraq and Afghanistan.
+		{@render makeListofLinks(militaryLinks)}
+	</div>
 
-	{@render makeListofLinks(militaryLinks)}
+	<div class="p-golden-xl prose max-w-none pb-10">
+		<h3>Acupuncture, an ancient therapy, hits the medical mainstream.</h3>
 
-	<h2>Acupuncture, an ancient therapy, hits the medical mainstream.</h2>
+		Nearly 3,000 years ago, someone in China discovered that by inserting tiny needles into specific
+		areas of the body, one's health could be restored. It's been working ever since. MORE
 
-	Nearly 3,000 years ago, someone in China discovered that by inserting tiny needles into specific
-	areas of the body, one's health could be restored. It's been working ever since. MORE
-
-	{@render makeListofLinks(mainstreamLinks)}
+		{@render makeListofLinks(mainstreamLinks)}
+	</div>
 </div>

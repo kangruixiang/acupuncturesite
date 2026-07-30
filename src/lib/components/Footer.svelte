@@ -2,7 +2,7 @@
 	import Addresses from './Addresses.svelte';
 </script>
 
-<div class="bg-primary rounded-b-md pt-golden-2xl px-golden-xl pb-golden-xl">
+<div class="bg-primary-muted2 rounded-b-md pt-golden-2xl px-golden-xl pb-golden-xl">
 	<Addresses />
 
 	<div class="text-xs text-center mt-golden-2xl">

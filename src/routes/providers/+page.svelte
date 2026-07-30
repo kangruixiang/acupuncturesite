@@ -28,17 +28,19 @@
 	];
 </script>
 
-<div class="p-golden-2xl bg-primary-muted/10">
-	<div class="text-lg prose max-w-none">
-		<p>Meet the professional staff at Chinese Acupuncture Association on the Gulf Coast.</p>
+<div class=" bg-primary-muted/10 grid grid-cols-12 gap-x-golden-lg">
+	<div
+		class="text-lg bg-primary-muted p-golden-lg prose max-w-none md:col-span-2 flex items-center justify-center text-right"
+	></div>
 
-		<p>
-			All of our TCM physicians were specifically trained in China and are Licensed and NCCAOM
-			certified in USA.
-		</p>
-	</div>
-
-	<div class="grid grid-cols-2 mt-10 gap-y-golden-2xl">
+	<div class="col-span-10 grid grid-cols-2 p-golden-xl pb-20 gap-y-golden-2xl">
+		<div class="col-span-2 prose max-w-none text-lg">
+			<p>Meet the professional staff at Chinese Acupuncture Association on the Gulf Coast.</p>
+			<p>
+				All of our TCM physicians were specifically trained in China and are licensed and NCCAOM
+				certified in USA.
+			</p>
+		</div>
 		{#each providers as provider (provider.name)}
 			<div class="flex flex-col items-center gap-y-golden-md">
 				<div>
