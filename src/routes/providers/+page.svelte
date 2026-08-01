@@ -29,17 +29,19 @@
 	];
 </script>
 
-<div class=" bg-primary-muted/10 grid grid-cols-12 gap-x-golden-lg">
+<div class=" bg-primary-muted/10">
 	<div
-		class="text-lg bg-primary-muted p-golden-lg prose max-w-none md:col-span-1 flex items-center justify-center text-right"
+		class="text-lg bg-primary-muted p-golden-lg prose max-w-none hidden md:visible items-center justify-center text-right"
 	></div>
 
-	<div class="col-span-11 grid grid-cols-2 p-golden-xl pb-20 gap-y-golden-2xl">
-		<div class="col-span-2 prose max-w-none text-lg">
-			<p>Meet the professional staff at Chinese Acupuncture Association on the Gulf Coast.</p>
+	<div class="grid grid-cols-2 pb-20 gap-y-golden-2xl">
+		<div
+			class="col-span-2 p-golden-xl md:p-golden-2xl bg-primary-muted dark:text-base-content text-base-300 prose max-w-none"
+		>
 			<p>
-				All of our TCM physicians were specifically trained in China and are licensed and NCCAOM
-				certified in USA.
+				Meet the professional staff at Chinese Acupuncture Association on the Gulf Coast. All of our
+				TCM physicians were specifically trained in China and are licensed and NCCAOM certified in
+				USA.
 			</p>
 		</div>
 		{#each providers as provider (provider.name)}
@@ -47,8 +49,8 @@
 				<div>
 					<img class="rounded-sm" src={provider.pic} alt="" />
 				</div>
-				<div class="text-center">
-					<span class="text-lg font-semibold"> {provider.name}</span> <br />
+				<div class="text-center text-sm md:text-base">
+					<span class="md:text-lg font-semibold"> {provider.name}</span> <br />
 					{#if provider.info}
 						{provider.info}
 					{:else}

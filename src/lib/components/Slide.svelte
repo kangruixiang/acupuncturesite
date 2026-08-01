@@ -20,7 +20,7 @@
 <div class="overflow-hidden slider-container py-golden-md bg-primary-muted">
 	<div class="flex slider-track gap-4 animate-marquee">
 		{#each looped as image, i (i)}
-			<img src={image} alt="" class="h-64 w-auto shrink-0 object-cover rounded-lg" />
+			<img src={image} alt="" class="h-50 md:h-64 w-auto shrink-0 object-cover rounded-lg" />
 		{/each}
 	</div>
 </div>

@@ -4,8 +4,8 @@
 	>
 		<img src="xue.jpg" class="md:w-[80%] w-[50%] rounded-sm" alt="" />
 		<div class="flex flex-col gap-y-golden-md items-center justify-center">
-			<span class="text-2xl text-center"> Xue Cui Xiang, OMD </span>
-			<span class="text-lg text-pretty max-w-80"
+			<span class="text-xl md:text-2xl text-center"> Xue Cui Xiang, OMD </span>
+			<span class="text-sm md:text-lg text-pretty max-w-60 md:max-w-80"
 				>Traditional Chinese Medicine Physician Licensed and National Certified Acupuncture
 				Specialist and Herbologist</span
 			>
