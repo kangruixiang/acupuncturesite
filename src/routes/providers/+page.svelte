@@ -10,20 +10,21 @@
 			info: 'Consultant, not licensed in Florida'
 		},
 		{
-			name: 'Bin Wang, AP',
-			pic: 'bin.jpg'
+			name: 'Yan Mei Fang, AP',
+			pic: 'yan.jpg'
 		},
+
 		{
 			name: 'Nancy Xiang, AP',
 			pic: 'nancy.jpg'
 		},
 		{
-			name: 'Lei Zhang, AP',
-			pic: 'lei.jpg'
+			name: 'Bin Wang, AP',
+			pic: 'bin.jpg'
 		},
 		{
-			name: 'Yan Mei Fang, AP',
-			pic: 'yan.jpg'
+			name: 'Lei Zhang, AP',
+			pic: 'lei.jpg'
 		}
 	];
 </script>

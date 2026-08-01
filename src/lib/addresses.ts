@@ -20,10 +20,10 @@ export const addresses: Address[] = [
 		phone: '850-479-3489',
 		address: '2254 Olive Road Pensacola, FL 32514',
 		hours: {
-			Monday: '8:30 AM \u2013 3:30 PM',
-			Tuesday: 'Closed',
+			Monday: 'Closed',
+			Tuesday: '8:00 AM \u2013 3:30 PM',
 			Wednesday: 'Closed',
-			Thursday: '8:30 AM \u2013 3:30 PM',
+			Thursday: '8:00 AM \u2013 3:30 PM',
 			Friday: 'Closed',
 			Saturday: 'Closed',
 			Sunday: 'Closed'
@@ -34,11 +34,11 @@ export const addresses: Address[] = [
 		phone: '850-864-1688',
 		address: '51 Beal Pkwy NE Fort Walton Beach, FL 32548',
 		hours: {
-			Monday: '8:30 AM \u2013 3:30 PM',
+			Monday: '8:00 AM \u2013 3:30 PM',
 			Tuesday: 'Closed',
 			Wednesday: 'Closed',
-			Thursday: '8:30 AM \u2013 3:30 PM',
-			Friday: 'Closed',
+			Thursday: 'Closed',
+			Friday: '8:00 AM \u2013 3:30 PM',
 			Saturday: 'Closed',
 			Sunday: 'Closed'
 		}
@@ -49,11 +49,11 @@ export const addresses: Address[] = [
 		fax: '251-343-6666',
 		address: '4353 Midmost Drive Mobile, AL 36609',
 		hours: {
-			Monday: 'Closed',
-			Tuesday: '7:30 AM \u2013 6 PM',
+			Monday: '7:30 AM \u2013 6 PM',
+			Tuesday: 'Closed',
 			Wednesday: 'Closed',
-			Thursday: 'Closed',
-			Friday: '7:30 AM \u2013 6 PM',
+			Thursday: '7:30 AM \u2013 6 PM',
+			Friday: 'Closed',
 			Saturday: 'Closed',
 			Sunday: 'Closed'
 		}
@@ -64,11 +64,11 @@ export const addresses: Address[] = [
 		fax: '228-385-3838',
 		address: '2318 E. Pass Road Biloxi, MS 39531',
 		hours: {
-			Monday: '8:30 AM \u2013 3:30 PM',
-			Tuesday: 'Closed',
+			Monday: 'Closed',
+			Tuesday: '8:30 AM \u2013 3:30 PM',
 			Wednesday: 'Closed',
-			Thursday: '8:30 AM \u2013 3:30 PM',
-			Friday: 'Closed',
+			Thursday: 'Closed',
+			Friday: '8:30 AM \u2013 3:30 PM',
 			Saturday: 'Closed',
 			Sunday: 'Closed'
 		}
