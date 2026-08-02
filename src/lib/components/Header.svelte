@@ -43,7 +43,10 @@
 	class="w-full md:py-golden-md grid grid-cols-2 md:grid-cols-3 gap-2 lg:flex items-center md:flex-wrap h-full lg:justify-around bg-header"
 >
 	{#each links as link (link.text)}
-		<button onclick={() => goto(link.url)} class="btn btn-ghost hover:bg-primary-muted/30">
+		<button
+			onclick={() => goto(link.url)}
+			class="btn btn-ghost text-base-300 hover:bg-primary-muted/30"
+		>
 			{link.text}
 		</button>
 	{/each}
