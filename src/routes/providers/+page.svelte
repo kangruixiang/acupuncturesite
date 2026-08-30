@@ -19,7 +19,7 @@
 			pic: 'nancy.jpg'
 		},
 		{
-			name: 'Bin Wang, AP',
+			name: 'Bin Wang, OMD',
 			pic: 'bin.jpg'
 		},
 		{

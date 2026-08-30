@@ -46,13 +46,12 @@ export const addresses: Address[] = [
 	{
 		city: 'Mobile, AL',
 		phone: '251-341-4507',
-		fax: '251-343-6666',
 		address: '4353 Midmost Drive Mobile, AL 36609',
 		hours: {
-			Monday: '7:30 AM \u2013 6 PM',
+			Monday: '8:30 AM \u2013 6 PM',
 			Tuesday: 'Closed',
 			Wednesday: 'Closed',
-			Thursday: '7:30 AM \u2013 6 PM',
+			Thursday: '8:30 AM \u2013 6 PM',
 			Friday: 'Closed',
 			Saturday: 'Closed',
 			Sunday: 'Closed'
@@ -61,7 +60,6 @@ export const addresses: Address[] = [
 	{
 		city: 'Biloxi, MS',
 		phone: '228-385-7794',
-		fax: '228-385-3838',
 		address: '2318 E. Pass Road Biloxi, MS 39531',
 		hours: {
 			Monday: 'Closed',

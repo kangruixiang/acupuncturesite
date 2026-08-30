@@ -45,7 +45,7 @@
 	{#each links as link (link.text)}
 		<button
 			onclick={() => goto(link.url)}
-			class="btn btn-ghost text-base-300 hover:bg-primary-muted/30"
+			class="btn btn-ghost text-base-300 dark:text-base-content hover:bg-primary-muted/30"
 		>
 			{link.text}
 		</button>
