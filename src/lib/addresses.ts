@@ -65,10 +65,10 @@ export const addresses: Address[] = [
 		address: '2318 E. Pass Road Biloxi, MS 39531',
 		hours: {
 			Monday: 'Closed',
-			Tuesday: '8:30 AM \u2013 3:30 PM',
+			Tuesday: '8:00 AM \u2013 5 PM',
 			Wednesday: 'Closed',
 			Thursday: 'Closed',
-			Friday: '8:30 AM \u2013 3:30 PM',
+			Friday: '8:00 AM \u2013 5 PM',
 			Saturday: 'Closed',
 			Sunday: 'Closed'
 		}
