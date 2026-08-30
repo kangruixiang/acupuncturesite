@@ -34,9 +34,9 @@
 
 		<p>
 			Dr. Xiang has helped thousands of patients with so-called "incurable diseases" and has won
-			high praise from her American patients. You can read the <a href="/testimonials"
-				>testimonials</a
-			> here..
+			high praise from her American patients. She has since retired. You can read <a
+				href="/testimonials">testimonials</a
+			> here...
 		</p>
 	</div>
 </div>

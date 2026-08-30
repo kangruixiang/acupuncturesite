@@ -1,13 +1,9 @@
 <script lang="ts">
 	const conditions: { category: string; symptoms: string }[] = [
 		{
-			category: "Crohn's & Ulcerative Colitis",
-			symptoms: 'We have been very successful treating this condition.'
-		},
-		{
 			category: 'Digestive',
 			symptoms:
-				'Abdominal pain, Constipation, Chronic Diarrhea, Irritable Bowl Syndrome Hyperacidity, Indigestion, Ulcers.'
+				"Abdominal pain, Constipation, Chronic Diarrhea, Irritable Bowl Syndrome Hyperacidity, Indigestion, Ulcers, Ulcerative Colitis, Crohn's."
 		},
 		{
 			category: 'Emotional',

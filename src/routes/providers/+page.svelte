@@ -1,11 +1,11 @@
 <script lang="ts">
 	const providers: { name: string; pic: string; info?: string }[] = [
 		{
-			name: 'Xue Cui Xiang, OMD',
+			name: 'Xue Cui Xiang, OMD (retired)',
 			pic: 'xue.jpg'
 		},
 		{
-			name: 'Peter Zhang, DC',
+			name: 'Peter Zhang, DC (retired)',
 			pic: 'peter.jpg',
 			info: 'Consultant, not licensed in Florida'
 		},
